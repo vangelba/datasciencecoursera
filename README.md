@@ -1,2 +1,2 @@
 # datasciencecoursera
-# Repository for the coursera assignments of the data science courses
+## Repository for the coursera assignments of the data science courses
