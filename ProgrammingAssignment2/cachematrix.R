@@ -1,8 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions let us wrap the matrices and their inverse,
+## which are cached and only calculated once 
 
-## Write a short comment describing this function
-## function of x matrix, which returns a cache matrix object. This cache object lets us 
+## makeCacheMatrix is a function of x matrix, which returns a cache matrix object. This cache object lets us 
 ## set and get the matrix and its inverse respectively via the
 ## set, get, setinverse, getinverse methods
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,8 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-## function of x , a cache matrix object, created from a matrix with the makeCacheMatrix function,
+## cacheSolve is a function of x , a cache matrix object, created from a matrix with the makeCacheMatrix function,
 ## which returns its inverse matrix.
 ## This function will calculate the inverse matrix and cache it the first time,
 ## and makes sure that subsequent calls of cacheSolve(x) return the cached inverse, also signalling it by
